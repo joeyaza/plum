@@ -1,6 +1,6 @@
-.box1 {
+.box-one {
   width: 167vh;
-     height: 50vh;
+  height: 50vh;
   background-repeat: no-repeat;
   background-size: 84vw;
 }
@@ -51,19 +51,19 @@
    width: 15%;
    padding: 5px;
    padding-left: 10px; 
- }
- .sidebar-nav .navbar ul {
-  float: none;
-}
-.sidebar-nav .navbar ul:not {
+  }
+  .sidebar-nav .navbar ul {
+    float: none;
+  }
+  .sidebar-nav .navbar ul:not {
   display: block;
-}
-.sidebar-nav .navbar li {
+  }
+  .sidebar-nav .navbar li {
   float: none;
   display: block;
-}
-.sidebar-nav .navbar li a {
+  }
+  .sidebar-nav .navbar li a {
   padding-top: 12px;
   padding-bottom: 12px;
-}
+  } 
 }
