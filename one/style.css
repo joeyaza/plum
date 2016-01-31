@@ -22,16 +22,18 @@
 @media (max-width: 800px) {
   #box-two { 
     background-image: url("http://i.kinja-img.com/gawker-media/image/upload/y6k2hs8svqdlp9vvewxt.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw;
   }
 }
 
 @media (max-width: 500px) {
   #box-two { 
     background-image: url("https://whyevolutionistrue.files.wordpress.com/2013/12/picture-13.png");
+    background-repeat: no-repeat;
+    background-size: 100vw;
   }
 }
-
-
 
 .active {
   padding-bottom: 38px;
