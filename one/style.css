@@ -1,0 +1,45 @@
+/*img {display: block; margin: 0 auto;}*/
+
+.box1 {
+  width: 105%;
+  height: auto;
+}
+
+.box2 {    
+  height: 100%;
+  width: 100%;
+  background-image: url('http://koshertravelers.com/wp-content/uploads/2015/06/norway-fjord-1.jpg');
+}
+
+.active {
+  padding-bottom: 38px;
+}
+
+/* make sidebar nav vertical */ 
+@media (min-width: 800px) {
+  .sidebar-nav .navbar .navbar-collapse {
+
+    padding: 10px;
+    max-height: none;
+  }
+
+  .col-sm-3 {
+       width: 15%;
+       padding: 5px;
+       padding-left: 10px; 
+  }
+  .sidebar-nav .navbar ul {
+    float: none;
+  }
+  .sidebar-nav .navbar ul:not {
+    display: block;
+  }
+  .sidebar-nav .navbar li {
+    float: none;
+    display: block;
+  }
+  .sidebar-nav .navbar li a {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+}

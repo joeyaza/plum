@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html ng-app="angApp">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ANGULAR TEST</title>
+
+<!-- ***************** SCRIPTS **************-->
+
+<!-- JAVASCRIPT -->
+
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+<script src="js/controller.js"></script>
+
+<!-- CSS AND STYLE -->
+
+<link rel="stylesheet" type="text/css" href="./style/style.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+</head>
+
+<!-- define angular controller here for use -->
+<body ng-controller="MainController as main">
+<div class="container">
+<h1 class="top-title">ANGULAR APP TEST</h1>
+
+<div ng-repeat="story in info"> 
+
+<a href='{{story.url}}'><p>{{story.title}}</p></a>
+</div>
+
+
+</body>
+</div>
+</html>
