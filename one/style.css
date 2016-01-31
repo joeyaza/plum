@@ -1,20 +1,22 @@
-/*img {display: block; margin: 0 auto;}*/
-
 .box1 {
-  width: 166vh;
-  height: 50vh;
+  width: 167vh;
+     height: 50vh;
+  background-repeat: no-repeat;
+  background-size: 84vw;
 }
 
 .col-sm-9 {
-padding: 0px;
+  padding: 0px;
 
 }
 
 #box-two {    
-    background-image: url("https://upload.wikimedia.org/wikipedia/commons/5/5e/Termas_geometricas.jpg");
-    width: 166vh;
-    height: 60vh;
-    position:relative;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/5/5e/Termas_geometricas.jpg");
+  width: 166vw;
+  height: 60vh;
+  position:relative;
+  background-repeat: no-repeat;
+  background-size: 100vw;
 }
 
 @media (max-width: 800px) {
@@ -24,10 +26,10 @@ padding: 0px;
 }
 
 @media (max-width: 500px) {
-    #box-two { 
-      background-image: url("https://whyevolutionistrue.files.wordpress.com/2013/12/picture-13.png");
-    }
+  #box-two { 
+    background-image: url("https://whyevolutionistrue.files.wordpress.com/2013/12/picture-13.png");
   }
+}
 
 
 
@@ -44,22 +46,22 @@ padding: 0px;
   }
 
   .col-sm-3 {
-       width: 15%;
-       padding: 5px;
-       padding-left: 10px; 
-  }
-  .sidebar-nav .navbar ul {
-    float: none;
-  }
-  .sidebar-nav .navbar ul:not {
-    display: block;
-  }
-  .sidebar-nav .navbar li {
-    float: none;
-    display: block;
-  }
-  .sidebar-nav .navbar li a {
-    padding-top: 12px;
-    padding-bottom: 12px;
-  }
+   width: 15%;
+   padding: 5px;
+   padding-left: 10px; 
+ }
+ .sidebar-nav .navbar ul {
+  float: none;
+}
+.sidebar-nav .navbar ul:not {
+  display: block;
+}
+.sidebar-nav .navbar li {
+  float: none;
+  display: block;
+}
+.sidebar-nav .navbar li a {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
 }
