@@ -1,15 +1,35 @@
 /*img {display: block; margin: 0 auto;}*/
 
 .box1 {
-  width: 105%;
-  height: auto;
+  width: 166vh;
+  height: 50vh;
 }
 
-.box2 {    
-  height: 100%;
-  width: 100%;
-  background-image: url('http://koshertravelers.com/wp-content/uploads/2015/06/norway-fjord-1.jpg');
+.col-sm-9 {
+padding: 0px;
+
 }
+
+#box-two {    
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/5/5e/Termas_geometricas.jpg");
+    width: 166vh;
+    height: 60vh;
+    position:relative;
+}
+
+@media (max-width: 800px) {
+  #box-two { 
+    background-image: url("http://i.kinja-img.com/gawker-media/image/upload/y6k2hs8svqdlp9vvewxt.jpg");
+  }
+}
+
+@media (max-width: 500px) {
+    #box-two { 
+      background-image: url("https://whyevolutionistrue.files.wordpress.com/2013/12/picture-13.png");
+    }
+  }
+
+
 
 .active {
   padding-bottom: 38px;
